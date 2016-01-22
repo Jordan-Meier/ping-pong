@@ -13,10 +13,7 @@ body {
 }
 
 #content {
-
-  background-color: #E6E6E6;
   padding-bottom: 100%;
-
 }
 
 
@@ -55,7 +52,6 @@ body {
 
 
 
-
 #letsPingPong {
   margin-top: 20px;
 }
@@ -69,6 +65,9 @@ body {
   font-family: open sans;
 }
 
+ol {
+  margin-left: 20px;
+}
 
 @media (min-width: 600px) {
 
