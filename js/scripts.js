@@ -23,6 +23,7 @@ $(document).ready(function() {
         number = parseInt(number);
 //need something to clear out previous results when user
 //resubmits a new number
+    $("#results").empty();
     for (var i = 1; i <= number; i +=1) {
       var result = pingPong (i);
 //add numbers as unordered list items to results section
