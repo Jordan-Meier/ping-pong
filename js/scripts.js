@@ -1,3 +1,5 @@
+//BDD Business Logic:
+
 var pingPong = function (number) {
   if (number % 15 === 0) {
     return "pingpong";
@@ -12,3 +14,20 @@ var pingPong = function (number) {
     return number;
   }
 }
+
+//BDD User Interface Logic:
+
+$(document).ready(function() {
+  $("form#letsPingPong").submit(function(event) {
+    var number = $("input#number")).val();
+        number = parseInt(number);
+
+
+
+
+
+
+    event.preventDefault();
+  });
+
+});
