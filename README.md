@@ -21,8 +21,8 @@ You can clone this repo onto your desktop and open the index.html, or go to jord
 * Bootstrap
 * jQuery
 * JavaScript
-* Mocha
-* Chai
+* Mocha 2.3.4
+* Chai 3.4.2
 
 ###Copyright & Licensing
 
