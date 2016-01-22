@@ -27,7 +27,7 @@ $(document).ready(function() {
       var result = pingPong (i);
 //add numbers as unordered list items to results section
 //of index.html. append won't work, need a dif function.
-        $("<li>" + result + "</li>").append($("#results"));
+        $("<li>" + result + "</li>").appendTo($("#results"));
     }
     event.preventDefault();
   });
