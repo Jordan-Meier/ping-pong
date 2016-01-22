@@ -13,3 +13,7 @@ img {
   border-right: solid black;
   background-color: lightblue;
 }
+
+#letsPingPong {
+  margin-top: 20px;
+}
