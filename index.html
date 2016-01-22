@@ -11,18 +11,35 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1></h1>
+      <h1>Ping Pong</h1>
     </div>
 
 
-    <form id="letsPingPong"   class="">
-      <div class="form-group">
-        <label for="number">Enter a length for side 1 of the triangle:</label>
-        <input id="number" type="text">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 .col-sm-pull-8">
+          <h3>About Ping Pong</h3>
+          <h4>Created by:</h4>
+            <p>Jordan Meier</p>
+          <h4>Github Username:</h4>
+            <a href="https://github.com/Jordan-Meier">jordan-meier</a>
+        </div>
+        <div class="col-sm-8 .col-sm-push-4">
+          <form id="letsPingPong"   class="form-inline">
+            <div class="form-group">
+              <label for="number">Enter a number</label>
+              <input id="number" type="text">
+            </div>
+
+            <button type="submit" class="btn">Let's ping pong</button>
+          </form>
+        </div>
+
       </div>
 
-      <button type="submit" class="btn">Let's ping pong</button>
-    </form>
+    </div>
+
 
   </body>
 </html>
