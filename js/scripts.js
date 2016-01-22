@@ -8,4 +8,7 @@ var pingPong = function (number) {
   else if (number % 3 === 0) {
     return "ping";
   }
+  else {
+    return number;
+  }
 }
