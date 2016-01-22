@@ -1,19 +1,78 @@
 #header {
-  background-color: #daf6ce;
-  margin-bottom: 0;
+  background-color: #F4DEB5;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  font-family: open sans;
 }
 
+body {
+  background-color: #E6E6E6;
+}
+
+#content {
+
+  background-color: #E6E6E6;
+  padding-bottom: 100%;
+
+}
 
 img {
   max-width: 100%;
   padding: 20px;
 }
-
+/* About section
+=========================================*/
 #about {
-  border-right: solid black;
-  background-color: lightblue;
+  float: left;
+  padding-right: 20%;
+  padding-bottom: 100%;
+  padding-top: 10px;
+  /*border-right: solid black;*/
+  background-color: #90BB90;
+  margin-top: 40px;
+  font-family: open sans;
 }
+
+#about h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#about h4 {
+  color: #F4DEB5;
+  font-weight: bolder;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+#about a, p, h3 {
+  margin-left: 20px;
+}
+
+#about p {
+  color: white;
+}
+
+
+
 
 #letsPingPong {
   margin-top: 20px;
+}
+
+#playResults {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 100%;
+  margin-left: 20px;
+  background-color: #E6E6E6;
+  font-family: open sans;
+}
+
+
+@media (min-width: 600px) {
+
 }
